@@ -1,34 +1,28 @@
-# Robot Sensor Anomaly Detection using SOM
+# Robot Sensor Anomaly Detection Using SOM
 
-This project simulates robot sensor data and detects anomalies using a Self-Organizing Map (SOM).  
-It demonstrates a **data science + robotics research project**, suitable for autonomous system analysis.
-
----
+This project uses **Self-Organizing Maps (SOM)** to detect anomalies in robot sensor data.
 
 ## Features
-- Simulate robot sensor readings (normal + anomalies)
-- Cluster data using Self-Organizing Map
-- Detect anomalies automatically
-- Visualize clusters in plots
-- Save and reuse trained SOM model for new data
+- Simulate robot sensor data
+- Train SOM model for clustering
+- Detect anomalies
+- Visualize results
 
----
+## Screenshots
 
-## Files
-- `main.py` → Generate data, train SOM, visualize clusters
-- `sensor_simulation.py` → Functions to simulate sensor readings
-- `som_model.py` → Train SOM model
-- `visualization.py` → Plot clusters
-- `use_saved_som.py` → Load saved SOM and detect anomalies on new data
-- `cluster_plot.png` → Plot from `main.py`
-- `new_cluster_plot.png` → Plot from `use_saved_som.py`
-- `som_model.pkl` → Saved SOM model
+Cluster plot from training data:
 
----
+![Cluster Plot](cluster_plot.png)
 
-## How to Run
+Cluster plot using new data:
 
-1. Install dependencies:
+![New Cluster Plot](new_cluster_plot.png)
 
-```bash
-pip install numpy matplotlib scikit-learn minisom
+## Usage
+
+1. Run `main.py` to simulate data and generate plots  
+2. Run `use_saved_som.py` to use the saved SOM model (`som_model.pkl`)  
+
+## License
+
+MIT License
