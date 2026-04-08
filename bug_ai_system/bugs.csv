@@ -1,0 +1,8 @@
+id,description,priority,module
+1,Login button not working on homepage,High,UI
+2,Error 500 when submitting form,High,Backend
+3,Page crashes when uploading image,Medium,Upload
+4,Login fails with invalid credentials message,Low,Auth
+5,Image upload takes too long,Medium,Upload
+6,Server error when clicking submit,High,Backend
+7,UI not responsive on mobile devices,Medium,UI
